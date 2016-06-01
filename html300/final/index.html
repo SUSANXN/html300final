@@ -2,28 +2,40 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" src="styles/style.css">
-  </head>
-  <body>
- 
-    
-<div id="Request-page">
-  <p>Hello, please fill out this form for inqueries</p>
-  <div id="request-page">
-     
-  <button type="button" id="edit-settings">Edit Settings</button>
-  <button type="button" id="clear-settings">Clear Settings</button>
-  </div>
 
+    
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+
+  <p>Hello, please fill out this form for inqueries</p>
 <div id="form-page" style="display:none">
   <form>
     <label for="name">Your name:</label>
     <input type="text" id="name" />
     <button type="submit" id="submit">Submit</button>
   </form>
-</div>
-        
+  
+    <form>
+      <label>Enter numbers or text: <br/>
+        <textarea id="user-input" rows="5" cols="50"></textarea>
+      </label> <br/>
+      <button type="submit" id="submit">Submit</button>
+      <button type="button" id="reset">Reset</button>
+      <div id="message"></div>
+    </form>
+
+      
+  <div id="request-page">
+  <forms>
+  <button type="button" id="edit-settings">Edit Settings</button>
+  <button type="button" id="clear-settings">Clear Settings</button>
+    </forms>
   </div>
+
+  
+  
 
   </body> 
 </html>
