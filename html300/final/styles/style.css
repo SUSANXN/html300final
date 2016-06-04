@@ -1,5 +1,30 @@
 body {
-    background-color: azure;
-    font-family: sans-serif;
+    background-color: white;
+    font-family: sans-serif;}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block; 
+    }
+
+li { 
+    float:left;
+     padding: 8px;
+     margin:3px;
+     color: black;
+    
 }
 
+p { float: left; 
+  padding:2px;
+  margin: 1px;
+  display: inline-block;}
+
+.giant {float: left;
+      padding:2px;
+      margin:1px; 
+  display: inline-block;}
+
+footer {text-align: center;
+padding: 2rem;
+margin: 5rem;}
