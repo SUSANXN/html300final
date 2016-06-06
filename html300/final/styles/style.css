@@ -1,18 +1,58 @@
 body {
     background-color: white;
-    font-family: sans-serif;}
+    font-family: sans-serif;
+    margin: 45px 0px 0px 5px;}
+
+div#topdiv {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 2px; 
+}
+
+div#bottomdiv {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 1px; 
+  margin: 1px;
+}
+
+h2 { font-family: 'Poppins', sans-serif;
+  color: black;}
+
+div#container { 
+  top: 0rem;
+  left: 0rem;
+  width: 100%; 
+  padding: 3rem; 
+  margin: 2px;
+}
+
+header { position: fixed;}
 
 nav ul {
     list-style-type: none;
     display: inline-block; 
     }
 
-li { 
+nav ul li{ 
     float:left;
      padding: 8px;
      margin:3px;
      color: black;
     
+}
+
+a:link {
+    color: grey;
+}
+
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
 }
 
 p { float: left; 
@@ -25,6 +65,11 @@ p { float: left;
       margin:1px; 
   display: inline-block;}
 
-footer {text-align: center;
-padding: 2rem;
-margin: 5rem;}
+footer {text-align: center;}
+
+.list-group { padding: 3rem;
+              margin:2rem;
+              border: 1rem;}
+
+.quote { padding:2rem;
+         top: 4rem;}
