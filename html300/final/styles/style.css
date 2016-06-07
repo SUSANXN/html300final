@@ -7,7 +7,7 @@ div#topdiv {
   position: fixed;
   top: 1px; 
   left: 0px; 
-  width: 80%; 
+  width: 100%; 
   padding: 1px; 
   margin: 1px; }
 
@@ -30,6 +30,12 @@ div#container {
   padding: 3rem; 
   margin: 2px;
 }
+img { max-width: 20%;
+  float: left;
+  clear:both;
+  padding-right:1rem;
+  padding-bottom: 1rem;}
+
 
 header { position: fixed;}
 
@@ -45,6 +51,14 @@ nav ul li{
      color: black;
     
 }
+
+.move {
+  position: fixed;
+
+  right: 0px;
+  width: 70%;
+  padding: 1px; 
+  margin: 1px;}
 
 a:link {
     color: grey;
