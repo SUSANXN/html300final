@@ -5,11 +5,11 @@ body {
 
 div#topdiv {
   position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  padding: 2px; 
-}
+  top: 1px; 
+  left: 0px; 
+  width: 80%; 
+  padding: 1px; 
+  margin: 1px; }
 
 div#bottomdiv {
   position: fixed;
@@ -73,3 +73,5 @@ footer {text-align: center;}
 
 .quote { padding:2rem;
          top: 4rem;}
+
+.form-horizontal { padding: 2rem;}
