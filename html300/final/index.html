@@ -2,8 +2,17 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+  
+  
+  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -30,10 +39,11 @@
             {
               font-family: 'Give You Glory', cursive;
               font-size: 150px;
-              text-anchor: middle;}
+              text-anchor: middle;
+            }
       ]]></style>
   </defs>
-  <text x="450" y="200">Welcome...</text>
+  <text x="450" y="180">Welcome...</text>
     </svg></div></header>
   
   <br><br><br><br><br><br><br><br><br>
@@ -88,59 +98,48 @@
   <form class="form-horizontal">
   <div class="form-group form-group-lg">
   <label class="col-sm-2 control-label" for="formGroupInputLarge">First & Last Name</label>
-  
-    <div class="col-sm-10">
-    <input type="name" name="name" class="form-control" type="text" id="formGroupInputLarge" placeholder="What's your name???"><td id="name-value"></td> 
+
+    <input type="name" name="name" class="form-control" type="text" id="formGroupInputLarge" placeholder="What's your name???">
+    <td id="name-value"></td> 
+    </div>
+    
+    <form class="form-horizontal">
+  <div class="form-group form-group-lg">
+  <label class="col-sm-2 control-label" for="formGroupInputLarge">Mobile</label>
+ 
+  <input type="number" name="telephone" class="form-control" id="formGroupInputLarge" placeholder="mobile">
+  <td id="telephone-value"></td>
     </div>
     
   <form class="form-horizontal">
   <div class="form-group form-group-lg">
   <label class="col-sm-2 control-label" for="formGroupInputLarge">Date to complete</label>
-  <div class="col-sm-10">
   <input type="date" name="date" class="form-control" type="text" id="formGroupInputLarge" placeholder="When do you need this by?">
       <td id="date-value"></td>
     </div>
     
-  <form class="form-horizontal">
+    <form class="form-horizontal">
   <div class="form-group form-group-lg">
-  <label class="col-sm-2 control-label" for="formGroupInputLarge">Mobile</label>
-  <div class="col-sm-10">
-  <input type="number" name="mobile" class="form-control" id="formGroupInputLarge" placeholder="mobile">
-  <td id="number-value"></td>
+  <label class="col-sm-2 control-label" for="formGroupInputLarge">URL</label>
+  <input type="url" name="url" class="form-control" type="text" id="formGroupInputLarge" placeholder="webpage">
+<td id="url-value"></td>
     </div>
-        
-    <tr>
-          <td>Have you used this service?</td>
-          <td><input type="checkbox" name="checkbox" /></td>
-          <td id="checkbox-value"></td>
-        </tr>
-        <tr>
-          <td>Language</td>
-          <td>
-            <input type="radio" name="radio" value="HTML" />HTML <br/>
-            <input type="radio" name="radio" value="CSS" />CSS <br />
-            <input type="radio" name="radio" value="JavaScript" />JavaScript <br />
-          </td>
-          <td id="radio-value"></td>
-        </tr>
-        
-        <tr>
-          <td>Mobile Number</td>
-          <td><input type="tel" name="tel" /></td>
-          <td id="tel-value"></td>
-        </tr>     
-        <tr>
-          <td>URL to Webpage</td>
-          <td><input type="url" name="url" /></td>
-          <td id="url-value"></td>
-        </tr>
-        
-        <tr>
-          <td>Additional comments:</td>
-          <td><textarea name="textarea"></textarea></td>
-          <td id="textarea-value"></td>
-        </tr>
-      
+    
+        <form class="form-horizontal">
+  <div class="form-group form-group-lg">
+  <label class="col-sm-2 control-label" for="formGroupInputLarge">Language</label>
+  <input type="textarea" name="textarea" class="form-control" type="text" id="formGroupInputLarge" placeholder="HTML? CSS? JavaScript?">
+<td id="textarea-value"></td>
+    </div>
+          
+            <form class="form-horizontal">
+  <div class="form-group form-group-lg">
+  <label class="col-sm-2 control-label" for="formGroupInputLarge">Description</label>
+  <input type="textarea" name="textarea" class="form-control" type="text" id="formGroupInputLarge" placeholder="What can I help you with?">
+<td id="textarea-value"></td>
+    </div>
+<br>
+<br>    
       </tbody>
     </table>
   </div>
